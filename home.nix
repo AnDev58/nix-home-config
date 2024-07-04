@@ -49,4 +49,7 @@
 
   # Start keyring service for apps like VS Code
   services.gnome-keyring.enable = true;
+
+  # Give Hyprland a logout menu
+  programs.wlogout.enable = true;
 }
